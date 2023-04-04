@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<fragment
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7.5"
+    tools:context=".PassengerMapActivity"/>
+
+    <Button
+        android:id="@+id/btnRequestCar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:backgroundTint="@color/black"
+        android:text="BOOK YOUR CAB"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnDriverUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:backgroundTint="@color/black"
+        android:text="DRIVER UPDATE"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnLogoutPassenger"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:backgroundTint="@color/black"
+        android:text="LOGOUT"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Uber</string>
+    <string name="title_activity_passenger_map">PassengerMapActivity</string>
+    <string name="title_activity_view_location_map">ViewLocationMapActivity</string>
+</resources>
